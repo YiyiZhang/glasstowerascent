@@ -19,12 +19,12 @@ public class CameraController : MonoBehaviour {
 
 		if (playerPos.transform.localPosition.y > playerPos2.transform.localPosition.y) {
 
-			setCameraPos2PlayerPos = new Vector3 (playerPos.transform.localPosition.x, playerPos.transform.localPosition.y, playerPos.transform.localPosition.z - 20);
+			setCameraPos2PlayerPos = new Vector3 (playerPos.transform.localPosition.x, playerPos.transform.localPosition.y + 3.5f, playerPos.transform.localPosition.z - 10);
 			transform.position = setCameraPos2PlayerPos;
 
 		} else if (playerPos2.transform.localPosition.y > playerPos.transform.localPosition.y) {
 	
-			setCameraPos2Player2Pos = new Vector3 (playerPos2.transform.localPosition.x, playerPos2.transform.localPosition.y, playerPos2.transform.localPosition.z - 20);
+			setCameraPos2Player2Pos = new Vector3 (playerPos2.transform.localPosition.x, playerPos2.transform.localPosition.y + 3.5f, playerPos2.transform.localPosition.z - 10);
 			transform.position = setCameraPos2Player2Pos;
 
 		}

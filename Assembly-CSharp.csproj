@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{6CD5A09F-46FB-6FA5-591C-17D7C4C7F965}</ProjectGuid>
+    <ProjectGuid>{7D33428E-009F-C43F-1BDB-B6913E7B876A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -46,6 +46,8 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\CameraController.cs" />
+     <Compile Include="Assets\Scripts\DebrisController.cs" />
+     <Compile Include="Assets\Scripts\DebrisSpawner.cs" />
      <Compile Include="Assets\Scripts\Player1Mover.cs" />
      <Compile Include="Assets\Scripts\Player2Mover.cs" />
  <Reference Include="UnityEngine.UI">

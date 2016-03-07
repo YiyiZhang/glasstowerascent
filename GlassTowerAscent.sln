@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{E41FC4BD-62F7-D06F-5F00-975BF24F04D7}") = "GlassTowerAscent", "Assembly-CSharp.csproj", "{7D33428E-009F-C43F-1BDB-B6913E7B876A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D33428E-009F-C43F-1BDB-B6913E7B876A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D33428E-009F-C43F-1BDB-B6913E7B876A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D33428E-009F-C43F-1BDB-B6913E7B876A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D33428E-009F-C43F-1BDB-B6913E7B876A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
