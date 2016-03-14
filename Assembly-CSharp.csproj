@@ -48,8 +48,16 @@
      <Compile Include="Assets\Scripts\CameraController.cs" />
      <Compile Include="Assets\Scripts\DebrisController.cs" />
      <Compile Include="Assets\Scripts\DebrisSpawner.cs" />
+     <Compile Include="Assets\Scripts\EnemyController.cs" />
+     <Compile Include="Assets\Scripts\FinalPlatformController.cs" />
+     <Compile Include="Assets\Scripts\PenSpawner.cs" />
+     <Compile Include="Assets\Scripts\PencilSpawner.cs" />
      <Compile Include="Assets\Scripts\Player1Mover.cs" />
      <Compile Include="Assets\Scripts\Player2Mover.cs" />
+     <Compile Include="Assets\Scripts\SceneLoader.cs" />
+     <Compile Include="Assets\Scripts\ScreenShake.cs" />
+     <Compile Include="Assets\Scripts\TextUpdater.cs" />
+     <Compile Include="Assets\Scripts\WallController.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

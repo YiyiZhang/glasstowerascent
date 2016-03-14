@@ -1,0 +1,117 @@
+fileFormatVersion: 2
+guid: b89092d2a03471e43a09b3c76f706b56
+timeCreated: 1457896082
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Player2Jump_0
+    21300002: Player2Jump_1
+    21300004: Player2Jump_2
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Player2Jump_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 9
+        width: 50
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 39}
+        - {x: -25, y: 35}
+        - {x: -25, y: -43}
+        - {x: -22, y: -47}
+        - {x: 24, y: -47}
+        - {x: 25, y: -41}
+        - {x: 25, y: 18}
+        - {x: 14, y: 39}
+    - name: Player2Jump_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 10
+        width: 51
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 43.5}
+        - {x: -25.5, y: 35.5}
+        - {x: -25.5, y: -0.5}
+        - {x: -20.5, y: -43.5}
+        - {x: 15.5, y: -43.5}
+        - {x: 25.5, y: -39.5}
+        - {x: 25.5, y: 43.5}
+    - name: Player2Jump_2
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 10
+        width: 54
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 2}
+      outline:
+      - - {x: 8, y: 46.5}
+        - {x: -16, y: 46.5}
+        - {x: -27, y: 39.5}
+        - {x: -27, y: -39.5}
+        - {x: -26, y: -48.5}
+        - {x: 9, y: -48.5}
+        - {x: 25, y: -34.5}
+        - {x: 25, y: 39.5}
+        - {x: 15, y: 43.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
