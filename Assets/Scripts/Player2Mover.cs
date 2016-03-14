@@ -9,6 +9,8 @@ public class Player2Mover : MonoBehaviour {
 	public Animator player2Walking;
 	public Animator player2Jumping;
 
+	public AudioSource ladyGrunt;
+
 	// Use this for initialization
 	void Start () {
 
@@ -26,11 +28,15 @@ public class Player2Mover : MonoBehaviour {
 
 		if (c.gameObject.tag == "Debris" && this.gameObject.transform.position.y > 5) {
 			this.gameObject.transform.position = new Vector3 (this.gameObject.transform.position.x, this.gameObject.transform.position.y - 5f);
+			ScreenShake.screenShakeAmt = 2f;
+			ladyGrunt.Play ();
 		}
 
-		if (c.gameObject.tag == "Bullet1" && this.gameObject.transform.position.y > 5) {
+		if (c.gameObject.tag == "Bullet1" && this.gameObject.transform.position.y > 3) {
 			this.gameObject.transform.position = new Vector3 (this.gameObject.transform.position.x, this.gameObject.transform.position.y - 3f);
+			ScreenShake.screenShakeAmt = 2f;
 			Destroy (c.gameObject);
+			ladyGrunt.Play ();
 		}
 
 	}

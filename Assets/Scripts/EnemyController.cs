@@ -48,7 +48,7 @@ public class EnemyController : MonoBehaviour {
 				print (winText);
 				kaboom.Play ();
 				Invoke ("SceneLoadCountdown", 1.1f);
-				Destroy (this.gameObject, 1.2f);
+				Destroy (this.gameObject, 3f);
 			}
 
 			if (hitCount == 5 && c.gameObject.tag == "Bullet2") {
@@ -58,7 +58,7 @@ public class EnemyController : MonoBehaviour {
 				print (winText);
 				kaboom.Play ();
 				Invoke ("SceneLoadCountdown", 1.1f);
-				Destroy (this.gameObject, 1.2f);
+				Destroy (this.gameObject, 3f);
 			}
 
 		}

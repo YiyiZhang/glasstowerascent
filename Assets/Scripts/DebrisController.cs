@@ -6,6 +6,9 @@ public class DebrisController : MonoBehaviour {
 	public Rigidbody2D movementRandomizer;
 
 	public AudioSource hitEffect;
+	public AudioSource smashEffect;
+
+	public ParticleSystem blast;
 
 	// Use this for initialization
 	void Start () {
@@ -28,7 +31,11 @@ public class DebrisController : MonoBehaviour {
 		}
 
 		if (c.gameObject.tag == "Bullet1" || c.gameObject.tag == "Bullet2") {
-			Destroy (this.gameObject);
+			smashEffect.Play ();
+			blast.Play ();
+			ScreenShake.screenShakeAmt = 2f;
+			Destroy (this.gameObject, 0.1f);
+			Destroy (c.gameObject);
 		}
 			
 	}

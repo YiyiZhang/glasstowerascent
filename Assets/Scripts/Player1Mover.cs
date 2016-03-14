@@ -12,6 +12,8 @@ public class Player1Mover : MonoBehaviour {
 
 	public int startingHealth = 100;
 
+	public AudioSource manGrunt;
+
 	// Use this for initialization
 	void Start () {
 
@@ -29,11 +31,15 @@ public class Player1Mover : MonoBehaviour {
 
 		if (c.gameObject.tag == "Debris" && this.gameObject.transform.position.y > 5) {
 			this.gameObject.transform.position = new Vector3 (this.gameObject.transform.position.x, this.gameObject.transform.position.y - 5f);
+			ScreenShake.screenShakeAmt = 2f;
+			manGrunt.Play ();
 		}
 
-		if (c.gameObject.tag == "Bullet2" && this.gameObject.transform.position.y > 5) {
+		if (c.gameObject.tag == "Bullet2" && this.gameObject.transform.position.y > 3) {
 			this.gameObject.transform.position = new Vector3 (this.gameObject.transform.position.x, this.gameObject.transform.position.y - 3f);
+			ScreenShake.screenShakeAmt = 2f;
 			Destroy (c.gameObject);
+			manGrunt.Play ();
 		}
 
 	}
