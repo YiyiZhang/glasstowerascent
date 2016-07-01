@@ -58,8 +58,8 @@ public class Player2Mover : MonoBehaviour {
 
 		Vector3 localScale = player2Jump.transform.localScale;
 
-		if (Input.GetKeyDown ("up") && onPlatform == true) {
-			player2Jump.AddForce (new Vector2 (0, 700));
+		if (Input.GetKeyDown ("up") && onPlatform) {
+			player2Jump.AddForce (new Vector2 (0, 500));
 			isJumping = true;
 			isWalking = false;
 

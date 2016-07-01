@@ -55,15 +55,15 @@ public class Player1Mover : MonoBehaviour {
 	//GUI.Button (new Rect (10, 10, 100, 100), "on platform: " + onPlatform);
 	//}
 
-	void Update () {
+	void FixedUpdate () {
 
 		bool isWalking = false;
 		bool isJumping = false;
 
 		Vector3 localScale = player1Jump.transform.localScale;
 
-		if (Input.GetKeyDown ("w") && onPlatform == true) {
-			player1Jump.AddForce (new Vector2 (0, 700));
+		if (Input.GetKeyDown ("w") && onPlatform) {
+			player1Jump.AddForce (new Vector2 (0, 500));
 			isJumping = true;
 
 		} else if (Input.GetKeyDown ("up") && onPlatform == false) {

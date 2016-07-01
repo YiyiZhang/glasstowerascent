@@ -18,7 +18,7 @@ public class CameraController : MonoBehaviour {
 	}
 
 	// Update is called once per frame
-	void Update () {
+	void LateUpdate () { //runs after everything
 
 //		if (playerPos.transform.localPosition.y > playerPos2.transform.localPosition.y) {
 
