@@ -73,7 +73,7 @@ public class EnemyController : MonoBehaviour {
 		}
 
 		if (sceneLoadCountdown == 2000) {
-			SceneManager.LoadScene (2);
+			SceneManager.LoadScene (3); //loads level 2
 		}
 		
 	}
