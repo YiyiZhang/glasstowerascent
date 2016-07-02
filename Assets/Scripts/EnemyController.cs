@@ -41,7 +41,7 @@ public class EnemyController : MonoBehaviour {
 				enemyHitEffect.Play ();
 			}
 
-			if (hitCount == 5 && c.gameObject.tag == "Bullet1") {
+			if (hitCount == 3 && c.gameObject.tag == "Bullet1") {
 				enemyDeadEffect.Play ();
 				winText = "PLAYER 1 WINS";
 				ScreenShake.screenShakeAmt = 5f;
@@ -51,7 +51,7 @@ public class EnemyController : MonoBehaviour {
 				Destroy (this.gameObject, 3f);
 			}
 
-			if (hitCount == 5 && c.gameObject.tag == "Bullet2") {
+			if (hitCount == 3 && c.gameObject.tag == "Bullet2") {
 				enemyDeadEffect.Play ();
 				winText = "PLAYER 2 WINS";
 				ScreenShake.screenShakeAmt = 5f;
@@ -67,12 +67,12 @@ public class EnemyController : MonoBehaviour {
 
 	void SceneLoadCountdown () {
 
-		while (sceneLoadCountdown < 500) {
+		while (sceneLoadCountdown < 1000) {
 			sceneLoadCountdown = sceneLoadCountdown + 1;
 			print (sceneLoadCountdown);
 		}
 
-		if (sceneLoadCountdown == 500) {
+		if (sceneLoadCountdown == 2000) {
 			SceneManager.LoadScene (2);
 		}
 		
