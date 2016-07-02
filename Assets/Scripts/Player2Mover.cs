@@ -51,7 +51,7 @@ public class Player2Mover : MonoBehaviour {
 		//GUI.Button (new Rect (10, 10, 100, 100), "on platform: " + onPlatform);
 	//}
 
-	void Update () {
+	void FixedUpdate () {
 				
 		bool isWalking = false;
 		bool isJumping = false;
